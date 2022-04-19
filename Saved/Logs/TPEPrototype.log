@@ -1501,3 +1501,19 @@ Script call stack:
 [2022.04.19-10.05.11:928][521]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
 [2022.04.19-10.05.12:045][521]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
 [2022.04.19-10.05.12:046][521]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.19-10.09.53:382][874]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/NewAimBP.NewAimBP
+[2022.04.19-10.09.53:391][874]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.04.19-10.09.58:172][271]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewAimBP" FILE="../../../../Projects/TPEProtoype/Content/NewAimBP.uasset" SILENT=true
+[2022.04.19-10.09.58:303][271]LogSavePackage: Moving '../../../../Projects/TPEProtoype/Saved/NewAimBP6857AE0B4EF0BC9F81A22CA51726D7D0.tmp' to '../../../../Projects/TPEProtoype/Content/NewAimBP.uasset'
+[2022.04.19-10.09.58:355][271]AssetCheck: New page: Asset Save: NewAimBP
+[2022.04.19-10.09.58:355][271]LogContentValidation: Display: Validating AnimBlueprint /Game/NewAimBP.NewAimBP
+[2022.04.19-10.09.59:229][341]BlueprintLog: New page: Compile NewAimBP
+[2022.04.19-10.09.59:277][341]LogUObjectHash: Compacting FUObjectHashTables data took   3.18ms
+[2022.04.19-10.10.00:523][453]LogSlate: Window 'NewAimBP' being destroyed
+[2022.04.19-10.10.00:529][453]LogSlate: Window 'NewAimBP' being destroyed
+[2022.04.19-10.10.00:538][453]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2022.04.19-10.10.00:538][453]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.19-10.10.00:545][453]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2022.04.19-10.10.00:545][453]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.19-10.10.00:609][453]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2022.04.19-10.10.00:609][453]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
