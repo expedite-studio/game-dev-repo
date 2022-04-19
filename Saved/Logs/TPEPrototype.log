@@ -1517,3 +1517,695 @@ Script call stack:
 [2022.04.19-10.10.00:545][453]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
 [2022.04.19-10.10.00:609][453]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
 [2022.04.19-10.10.00:609][453]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.19-10.12.07:902][298]LogActorFactory: Actor Factory created Cube
+[2022.04.19-10.12.11:240][673]LogActorFactory: Actor Factory created Cube
+[2022.04.19-10.12.11:681][725]LogActorFactory: Actor Factory created Cube
+[2022.04.19-10.12.16:341][250]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2022.04.19-10.12.18:405][496]Cmd: DELETE
+[2022.04.19-10.12.18:405][496]Cmd: ACTOR DELETE
+[2022.04.19-10.12.18:486][496]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.04.19-10.12.18:539][496]LogUObjectHash: Compacting FUObjectHashTables data took   3.54ms
+[2022.04.19-10.12.18:544][496]LogEditorActor: Deleted 1 Actors (0.099 secs)
+[2022.04.19-10.12.32:061][979]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/TestSSCharacter.TestSSCharacter
+[2022.04.19-10.12.37:988][560]LogRenderer: Reallocating scene render targets to support 1208x708 Format 10 NumSamples 1 (Frame:1).
+[2022.04.19-10.13.09:309][ 98]LogContentBrowser: Deferred new asset file creation: NewWidgetBlueprint
+[2022.04.19-10.13.09:321][ 98]LogContentBrowser: Creating deferred item: NewWidgetBlueprint
+[2022.04.19-10.13.11:941][381]LogContentBrowser: Attempting asset rename: NewWidgetBlueprint -> HUD
+[2022.04.19-10.13.11:970][381]LogContentBrowser: End creating deferred item NewWidgetBlueprint
+[2022.04.19-10.13.15:400][773]LogTemp: Repeating last play command: Selected Viewport
+[2022.04.19-10.13.15:404][773]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.19-10.13.15:405][773]PIE: New page: PIE session: SideScrollerExampleMap (Apr 19, 2022, 8:13:15 PM)
+[2022.04.19-10.13.15:434][773]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2022.04.19-10.13.15:444][773]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009757s)
+[2022.04.19-10.13.15:445][773]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2022.04.19-10.13.15:445][773]LogPlayLevel: PIE: World Init took: (0.001154s)
+[2022.04.19-10.13.15:445][773]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.011153s)
+[2022.04.19-10.13.15:474][773]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2022.04.19-10.13.15:475][773]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2022.04.19-10.13.15:475][773]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.19-10.13.15:475][773]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.19-10.13.15:475][773]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.19-10.13.15:475][773]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.19-10.13.15:475][773]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.19-10.13.15:475][773]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.19-10.13.15:475][773]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.19-10.13.15:475][773]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.19-10.13.15:476][773]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.04.19-10.13.15:476][773]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.04.19-10.13.15:476][773]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.04.19-10.13.15:476][773]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.19-10.13.15:480][773]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.19-10.13.15:480][773]LogAudioMixer: Display: 1: FrontRight
+[2022.04.19-10.13.15:496][773]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2022.04.19-10.13.15:496][773]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.19-10.13.15:496][773]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.19-10.13.15:496][773]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.19-10.13.15:496][773]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.19-10.13.15:496][773]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.19-10.13.15:496][773]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.19-10.13.15:497][773]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.19-10.13.15:497][773]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.19-10.13.15:497][773]LogInit: FAudioDevice initialized.
+[2022.04.19-10.13.15:497][773]LogAudio: Display: Audio Device (ID: 3) registered with world 'SideScrollerExampleMap'.
+[2022.04.19-10.13.15:503][773]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2022.04.19-10.13.15:505][773]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2022.04.19-15.13.15
+[2022.04.19-10.13.15:506][773]LogWorld: Bringing up level for play took: 0.001542
+[2022.04.19-10.13.15:506][773]LogOnline: OSS: Creating online subsystem instance for: :Context_18
+[2022.04.19-10.13.15:508][773]PIE: Server logged in
+[2022.04.19-10.13.15:509][773]PIE: Play in editor total start time 0.105 seconds.
+[2022.04.19-10.13.15:509][773]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ReceiveTick
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:GetMousePosition
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:AimLocation
+
+[2022.04.19-10.13.15:509][773]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ReceiveTick
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:GetMousePosition
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:AimLocation
+
+[2022.04.19-10.13.15:548][774]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ReceiveTick
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:GetMousePosition
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:AimLocation
+
+[2022.04.19-10.13.15:548][774]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ReceiveTick
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:GetMousePosition
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:AimLocation
+
+[2022.04.19-10.13.15:556][775]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ReceiveTick
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:GetMousePosition
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:AimLocation
+
+[2022.04.19-10.13.15:556][775]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ReceiveTick
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:GetMousePosition
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:AimLocation
+
+[2022.04.19-10.13.15:564][776]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ReceiveTick
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:GetMousePosition
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:AimLocation
+
+[2022.04.19-10.13.15:565][776]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ReceiveTick
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:GetMousePosition
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:AimLocation
+
+[2022.04.19-10.13.15:573][777]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ReceiveTick
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:GetMousePosition
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:AimLocation
+
+[2022.04.19-10.13.15:573][777]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ReceiveTick
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:GetMousePosition
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:AimLocation
+
+[2022.04.19-10.13.15:581][778]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ReceiveTick
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:GetMousePosition
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:AimLocation
+
+[2022.04.19-10.13.15:581][778]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ReceiveTick
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:GetMousePosition
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:AimLocation
+
+[2022.04.19-10.13.15:589][779]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ReceiveTick
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:GetMousePosition
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:AimLocation
+
+[2022.04.19-10.13.15:590][779]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ReceiveTick
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:GetMousePosition
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:AimLocation
+
+[2022.04.19-10.13.15:598][780]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ReceiveTick
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:GetMousePosition
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:AimLocation
+
+[2022.04.19-10.13.15:598][780]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ReceiveTick
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:GetMousePosition
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:AimLocation
+
+[2022.04.19-10.13.15:606][781]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ReceiveTick
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:GetMousePosition
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:AimLocation
+
+[2022.04.19-10.13.15:606][781]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ReceiveTick
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:GetMousePosition
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:AimLocation
+
+[2022.04.19-10.13.15:614][782]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ReceiveTick
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:GetMousePosition
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:AimLocation
+
+[2022.04.19-10.13.15:614][782]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ReceiveTick
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:GetMousePosition
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:AimLocation
+
+[2022.04.19-10.13.15:623][783]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ReceiveTick
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:GetMousePosition
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:AimLocation
+
+[2022.04.19-10.13.15:623][783]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ReceiveTick
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:GetMousePosition
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:AimLocation
+
+[2022.04.19-10.13.15:631][784]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ReceiveTick
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:GetMousePosition
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:AimLocation
+
+[2022.04.19-10.13.15:631][784]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ReceiveTick
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:GetMousePosition
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:AimLocation
+
+[2022.04.19-10.13.15:639][785]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ReceiveTick
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:GetMousePosition
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:AimLocation
+
+[2022.04.19-10.13.15:639][785]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ReceiveTick
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:GetMousePosition
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:AimLocation
+
+[2022.04.19-10.13.15:648][786]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ReceiveTick
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:GetMousePosition
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:AimLocation
+
+[2022.04.19-10.13.15:648][786]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ReceiveTick
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:GetMousePosition
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:AimLocation
+
+[2022.04.19-10.13.15:656][787]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ReceiveTick
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:GetMousePosition
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:AimLocation
+
+[2022.04.19-10.13.15:656][787]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ReceiveTick
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:GetMousePosition
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:AimLocation
+
+[2022.04.19-10.13.15:664][788]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ReceiveTick
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:GetMousePosition
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:AimLocation
+
+[2022.04.19-10.13.15:664][788]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ReceiveTick
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:GetMousePosition
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:AimLocation
+
+[2022.04.19-10.13.15:673][789]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ReceiveTick
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:GetMousePosition
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:AimLocation
+
+[2022.04.19-10.13.15:673][789]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ReceiveTick
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:GetMousePosition
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:AimLocation
+
+[2022.04.19-10.13.15:681][790]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ReceiveTick
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:GetMousePosition
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:AimLocation
+
+[2022.04.19-10.13.15:681][790]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ReceiveTick
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:GetMousePosition
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:AimLocation
+
+[2022.04.19-10.13.15:689][791]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ReceiveTick
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:GetMousePosition
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:AimLocation
+
+[2022.04.19-10.13.15:689][791]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ReceiveTick
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:GetMousePosition
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:AimLocation
+
+[2022.04.19-10.13.15:698][792]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ReceiveTick
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:GetMousePosition
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:AimLocation
+
+[2022.04.19-10.13.15:698][792]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ReceiveTick
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:GetMousePosition
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:AimLocation
+
+[2022.04.19-10.13.15:706][793]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ReceiveTick
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:GetMousePosition
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:AimLocation
+
+[2022.04.19-10.13.15:706][793]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ReceiveTick
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:GetMousePosition
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:AimLocation
+
+[2022.04.19-10.13.15:714][794]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ReceiveTick
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:GetMousePosition
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:AimLocation
+
+[2022.04.19-10.13.15:714][794]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ReceiveTick
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:GetMousePosition
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:AimLocation
+
+[2022.04.19-10.13.15:723][795]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ReceiveTick
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:GetMousePosition
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:AimLocation
+
+[2022.04.19-10.13.15:723][795]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ReceiveTick
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:GetMousePosition
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:AimLocation
+
+[2022.04.19-10.13.15:731][796]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ReceiveTick
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:GetMousePosition
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:AimLocation
+
+[2022.04.19-10.13.15:731][796]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ReceiveTick
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:GetMousePosition
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:AimLocation
+
+[2022.04.19-10.13.15:739][797]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ReceiveTick
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:GetMousePosition
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:AimLocation
+
+[2022.04.19-10.13.15:739][797]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ReceiveTick
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:GetMousePosition
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:AimLocation
+
+[2022.04.19-10.13.15:748][798]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ReceiveTick
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:GetMousePosition
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:AimLocation
+
+[2022.04.19-10.13.15:748][798]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ReceiveTick
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:GetMousePosition
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:AimLocation
+
+[2022.04.19-10.13.15:756][799]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ReceiveTick
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:GetMousePosition
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:AimLocation
+
+[2022.04.19-10.13.15:756][799]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ReceiveTick
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:GetMousePosition
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:AimLocation
+
+[2022.04.19-10.13.15:764][800]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ReceiveTick
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:GetMousePosition
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:AimLocation
+
+[2022.04.19-10.13.15:764][800]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ReceiveTick
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:GetMousePosition
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:AimLocation
+
+[2022.04.19-10.13.15:773][801]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ReceiveTick
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:GetMousePosition
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:AimLocation
+
+[2022.04.19-10.13.15:773][801]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ReceiveTick
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:GetMousePosition
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:AimLocation
+
+[2022.04.19-10.13.15:781][802]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ReceiveTick
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:GetMousePosition
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:AimLocation
+
+[2022.04.19-10.13.15:781][802]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ReceiveTick
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:GetMousePosition
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:AimLocation
+
+[2022.04.19-10.13.15:789][803]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ReceiveTick
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:GetMousePosition
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:AimLocation
+
+[2022.04.19-10.13.15:789][803]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ReceiveTick
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:GetMousePosition
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:AimLocation
+
+[2022.04.19-10.13.15:798][804]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ReceiveTick
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:GetMousePosition
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:AimLocation
+
+[2022.04.19-10.13.15:798][804]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ReceiveTick
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:GetMousePosition
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:AimLocation
+
+[2022.04.19-10.13.15:807][805]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ReceiveTick
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:GetMousePosition
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:AimLocation
+
+[2022.04.19-10.13.15:807][805]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ReceiveTick
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:GetMousePosition
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:AimLocation
+
+[2022.04.19-10.13.15:815][806]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ReceiveTick
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:GetMousePosition
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:AimLocation
+
+[2022.04.19-10.13.15:815][806]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ReceiveTick
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:GetMousePosition
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:AimLocation
+
+[2022.04.19-10.13.15:825][807]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ReceiveTick
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:GetMousePosition
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:AimLocation
+
+[2022.04.19-10.13.15:825][807]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ReceiveTick
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:GetMousePosition
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:AimLocation
+
+[2022.04.19-10.13.15:842][808]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ReceiveTick
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:GetMousePosition
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:AimLocation
+
+[2022.04.19-10.13.15:842][808]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ReceiveTick
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:GetMousePosition
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:AimLocation
+
+[2022.04.19-10.13.15:850][809]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ReceiveTick
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:GetMousePosition
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:AimLocation
+
+[2022.04.19-10.13.15:850][809]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ReceiveTick
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:GetMousePosition
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:AimLocation
+
+[2022.04.19-10.13.15:859][810]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ReceiveTick
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:GetMousePosition
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:AimLocation
+
+[2022.04.19-10.13.15:859][810]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ReceiveTick
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:GetMousePosition
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:AimLocation
+
+[2022.04.19-10.13.15:867][811]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ReceiveTick
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:GetMousePosition
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:AimLocation
+
+[2022.04.19-10.13.15:867][811]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ReceiveTick
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:GetMousePosition
+	Function /Game/TestSSCharacter.TestSSCharacter_C:ExecuteUbergraph_TestSSCharacter
+	Function /Game/TestSSCharacter.TestSSCharacter_C:AimLocation
+
+[2022.04.19-10.13.17:075][951]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.19-10.13.17:075][951]LogWorld: BeginTearingDown for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2022.04.19-10.13.17:075][951]LogWorld: UWorld::CleanupWorld for SideScrollerExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.04.19-10.13.17:075][951]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.19-10.13.17:085][951]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.19-10.13.17:088][951]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.19-10.13.17:122][951]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.04.19-10.13.17:123][951]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.19-10.13.17:124][951]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.19-10.13.17:127][951]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.19-10.13.17:130][951]LogUObjectHash: Compacting FUObjectHashTables data took   2.66ms
+[2022.04.19-10.13.17:153][952]LogPlayLevel: Display: Destroying online subsystem :Context_18
