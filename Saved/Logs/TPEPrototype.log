@@ -36402,3 +36402,23 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.05.06-06.51.28:943][915]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
 [2022.05.06-06.51.28:950][915]LogUObjectHash: Compacting FUObjectHashTables data took   3.52ms
 [2022.05.06-06.51.28:978][916]LogPlayLevel: Display: Destroying online subsystem :Context_43
+[2022.05.06-06.51.56:659][256]LogUObjectHash: Compacting FUObjectHashTables data took   3.80ms
+[2022.05.06-06.51.56:683][256]LogSavePackage: Moving '../../../../Projects/TPEProtoype/Saved/SideScrollerExampleMap_Auto4C659B7774520F585C73C94A91CF4A078.tmp' to '../../../../Projects/TPEProtoype/Saved/Autosaves/Game/SideScrollerBP/Maps/SideScrollerExampleMap_Auto4.umap'
+[2022.05.06-06.51.56:684][256]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/SideScrollerBP/Maps/SideScrollerExampleMap' took 0.073
+[2022.05.06-06.51.56:685][256]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.073
+[2022.05.06-06.51.56:685][256]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TestSSCharacter] ([2] browsable assets)...
+[2022.05.06-06.51.56:700][256]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/TestSSCharacter.TestSSCharacter]
+[2022.05.06-06.51.56:700][256]OBJ SavePackage: Finished generating thumbnails for package [/Game/TestSSCharacter]
+[2022.05.06-06.51.56:700][256]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TestSSCharacter" FILE="../../../../Projects/TPEProtoype/Saved/Autosaves/Game/TestSSCharacter_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2022.05.06-06.51.56:777][256]LogSavePackage: Moving '../../../../Projects/TPEProtoype/Saved/TestSSCharacter_Auto44066BCE246059911BC899BAED29FF6DF.tmp' to '../../../../Projects/TPEProtoype/Saved/Autosaves/Game/TestSSCharacter_Auto4.uasset'
+[2022.05.06-06.51.56:778][256]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/NewAimBP] ([2] browsable assets)...
+[2022.05.06-06.51.56:789][256]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/NewAimBP.NewAimBP]
+[2022.05.06-06.51.56:789][256]OBJ SavePackage: Finished generating thumbnails for package [/Game/NewAimBP]
+[2022.05.06-06.51.56:789][256]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewAimBP" FILE="../../../../Projects/TPEProtoype/Saved/Autosaves/Game/NewAimBP_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2022.05.06-06.51.56:809][256]LogSavePackage: Moving '../../../../Projects/TPEProtoype/Saved/NewAimBP_Auto4033222B74A5CBD21E1311F9B05BA0810.tmp' to '../../../../Projects/TPEProtoype/Saved/Autosaves/Game/NewAimBP_Auto4.uasset'
+[2022.05.06-06.51.56:810][256]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/AnimStarterPack/MouseAimBP1] ([1] browsable assets)...
+[2022.05.06-06.51.56:823][256]OBJ SavePackage:     Rendered thumbnail for [BlendSpace1D /Game/AnimStarterPack/MouseAimBP1.MouseAimBP1]
+[2022.05.06-06.51.56:823][256]OBJ SavePackage: Finished generating thumbnails for package [/Game/AnimStarterPack/MouseAimBP1]
+[2022.05.06-06.51.56:823][256]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AnimStarterPack/MouseAimBP1" FILE="../../../../Projects/TPEProtoype/Saved/Autosaves/Game/AnimStarterPack/MouseAimBP1_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2022.05.06-06.51.56:829][256]LogSavePackage: Moving '../../../../Projects/TPEProtoype/Saved/MouseAimBP1_Auto49C9D36D54B2DA1E53B9E8EAD8B13C29C.tmp' to '../../../../Projects/TPEProtoype/Saved/Autosaves/Game/AnimStarterPack/MouseAimBP1_Auto4.uasset'
+[2022.05.06-06.51.56:829][256]LogFileHelpers: Auto-saving content packages took 0.144
